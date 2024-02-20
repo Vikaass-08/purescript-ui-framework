@@ -9,7 +9,7 @@
   - If our state changes then we create a new VDOM Mapping and find the dif between the old & new VDOM
   - Then we update the actual DOM with the dif.
 
-```
+```purescript
 
 -- Get window.document() instance
 foreign import getDocument :: Effect Document
